@@ -29,7 +29,7 @@ jobs:
           force_push_tag: true
 
       - name: Create release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: linux-enable-ir-emitter-*/*
           tag_name: ${{ needs.build.outputs.version }}
