@@ -30,7 +30,7 @@ on:
 jobs:
   build:
     name: Build, Test, Lint and Package
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     env:
       DEPS_DIR: .github/workflows/deps
       DEPS_CMAKE: .github/workflows/deps/CMakeLists.txt
